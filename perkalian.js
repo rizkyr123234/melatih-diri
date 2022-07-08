@@ -4,7 +4,7 @@ function faktorial(num){
 for(let i = num; i>=1;i--){
     arr.push(i)
 }
- hasil = arr.reduce((hasilnya,nilaiskrg) => hasilnya *nilaiskrg)
+hasil = arr.reduce((hasilnya,nilaiskrg) => hasilnya *nilaiskrg)
 return hasil
 }
 console.log(faktorial(4))
